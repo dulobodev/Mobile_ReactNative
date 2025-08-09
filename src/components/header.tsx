@@ -7,7 +7,7 @@ import colors from "tailwindcss/colors";
 type HeaderProps ={
     title: string;
     cartQuantityItem? : number;
-    isPacked: boolean
+    isPacked: boolean;
 }
 
 function Count ({cartQuantityItem, isPacked }: HeaderProps) {

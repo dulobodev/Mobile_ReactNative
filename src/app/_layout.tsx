@@ -1,6 +1,7 @@
 import { Slot } from "expo-router";
 import { SafeAreaView } from "react-native-safe-area-context";
 
+
 import {
   useFonts,
   Inter_400Regular,
@@ -10,6 +11,7 @@ import {
 } from "@expo-google-fonts/inter";
 
 import { Loading } from "@/components/loading";
+import { CATEGORIES } from "@/utils/data/products";
 
 export default function Layout() {
   const [fontsLoaded] = useFonts({
